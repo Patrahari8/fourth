@@ -1,0 +1,8 @@
+from django.shortcuts import render
+from django.http import HttpResponse
+
+# Create your views here.
+def hari(request):
+    return HttpResponse('<marquee><h1 style="color:purple";><i>HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI HARI</i></marquee></h1>')
+def travel(request):
+    return HttpResponse('<i>manali</i>')
